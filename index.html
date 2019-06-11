@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="js/jquery-3.4.1.js"> </script>
-    <script src = "js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <title></title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h2>Stress Survey</h2>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <script src="js/jquery-3.4.1.js"> </script>
+  <script src = "js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <!-- <div class="jumbotron"> -->
+    <div class="header">Health Website to take your money shhhh</div>
+    <h2>Stress Survey</h2>
+    <!-- </div> -->
+    <div class="navBar">
+      <ul>
+        <li class = "firstNavItem"><a href="#">home</a></li>
+        <li class = "navItem"><a href="#">survey</a></li>
+        <li class = "navItem"><a href="#">health tips 4 u</a></li>
+        <li class = "navItem"><a href="#">find stressed singles in your</a></li>
+      </ul>
+    </div>
+    <div class="image1"></div>
+    <div class="mainArea">
+
       <form id="stress-survey">
         <div class="form-group">
           <p>Check any that apply you:</p>
@@ -41,7 +53,7 @@
           <input type="checkbox" name="health-symptoms" value="s9">Symptom 9<br>
           <input type="checkbox" name="health-symptoms" value="s10">Symptom 10<br>
         </div>
-       <button type="submit" name="stress-button">Submit</button>
+        <button type="submit" name="stress-button">Submit</button>
       </form>
       <div id="stressed">
         <span id="uh-oh"><p><b>Uh oh! You might be stressed :(</b></p></span>
@@ -68,5 +80,6 @@
         <p><b>Wow! You are one chill human!</b> Nice.</p>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
