@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.4.1.js"> </script>
+    <script src = "js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Survey</h2>
+      </div>
+      <form id="stress-survey">
+        <div class="form-group">
+          <p>Check any that apply you:</p>
+          <input type="checkbox" name="warning-signs" value="w1">Warning 1<br>
+          <input type="checkbox" name="warning-signs" value="w2">Warning 2<br>
+          <input type="checkbox" name="warning-signs" value="w3">Warning 3<br>
+          <input type="checkbox" name="warning-signs" value="w4">Warning 4<br>
+          <input type="checkbox" name="warning-signs" value="w5">Warning 5<br>
+          <input type="checkbox" name="warning-signs" value="w6">Warning 6<br>
+          <input type="checkbox" name="warning-signs" value="w7">Warning 7<br>
+          <input type="checkbox" name="warning-signs" value="w8">Warning 8<br>
+          <input type="checkbox" name="warning-signs" value="w9">Warning 9<br>
+          <input type="checkbox" name="warning-signs" value="w10">Warning 10<br>
+        </div>
+        <div class="form-group">
+          <p>Check any that apply to you:</p>
+          <input type="checkbox" name="health-symptoms" value="s1">Symptom 1<br>
+          <input type="checkbox" name="health-symptoms" value="s2">Symptom 2<br>
+          <input type="checkbox" name="health-symptoms" value="s3">Symptom 3<br>
+          <input type="checkbox" name="health-symptoms" value="s4">Symptom 4<br>
+          <input type="checkbox" name="health-symptoms" value="s5">Symptom 5<br>
+          <input type="checkbox" name="health-symptoms" value="s6">Symptom 6<br>
+          <input type="checkbox" name="health-symptoms" value="s7">Symptom 7<br>
+          <input type="checkbox" name="health-symptoms" value="s8">Symptom 8<br>
+          <input type="checkbox" name="health-symptoms" value="s9">Symptom 9<br>
+          <input type="checkbox" name="health-symptoms" value="s10">Symptom 10<br>
+        </div>
+       <button type="submit" name="stress-button">Submit</button>
+      </form>
+      <div id="stressed">
+        <span id="uh-oh"><p><b>Uh oh! You might be stressed :(</b></p></span>
+        <form id="stressed-survey">
+          <div class="form-group">
+            <p>Check all that apply to you:</p>
+            <input type="checkbox" name="coping-methods" value="c1">Coping 1<br>
+            <input type="checkbox" name="coping-methods" value="c2">Coping 2<br>
+            <input type="checkbox" name="coping-methods" value="c3">Coping 3<br>
+            <input type="checkbox" name="coping-methods" value="c4">Coping 4<br>
+            <input type="checkbox" name="coping-methods" value="c5">Coping 5<br>
+            <input type="checkbox" name="coping-methods" value="c6">Coping 6<br>
+            <input type="checkbox" name="coping-methods" value="c7">Coping 7<br>
+            <input type="checkbox" name="coping-methods" value="c8">Coping 8<br>
+            <input type="checkbox" name="coping-methods" value="c9">Coping 9<br>
+            <input type="checkbox" name="coping-methods" value="c10">Coping 10<br>
+          </div>
+          <button type="submit" name="stressed-button">Submit</button>
+        </form>
+        <span id="stressedMessage"></span>
+      </div>
+      <br>
+      <div id="chill">
+        <p><b>Wow! You are one chill human!</b> Nice.</p>
+      </div>
+    </div>
+  </body>
+</html>
